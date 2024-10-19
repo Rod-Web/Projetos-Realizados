@@ -1,0 +1,144 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+  }
+    
+  /* cabecalho */
+  
+  header {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #000000;
+    color: #fff;
+    padding: 20px;
+  }
+    
+  header h1 {
+    margin: -2px;
+    margin-bottom: 7px;
+    font-size: 70px;
+    text-shadow: 3px 5px 1px black ;
+  }
+    
+  nav ul {
+    list-style: none;
+    padding: 0;
+      
+  }
+    
+  nav ul li {
+    display: inline;
+    margin-right: 20px;    
+  }
+    
+  .play-home, .auto-home, .bonus-home {
+    text-shadow: 1px 1px 3px black ;
+    color: #fff;
+    text-decoration: none;
+    font-size: 30px;
+    
+    padding: 5px;
+    background-color: #292929;
+    border-radius: 20px;
+  }
+    
+  .play-home { 
+    background-color: #1b1a1a;
+  }
+    
+  .play-home:hover, .auto-home:hover, .bonus-home:hover {
+    font-size: 35px;
+    background-color: #9e969685;
+  }
+
+  
+  main {
+    background-color: #292929;
+    color: #ffffff;
+    padding-bottom: 40px;
+  }
+
+  .descrition {
+    display: grid;
+    grid-template-columns: 400px auto;
+    
+
+  }
+  .capa-seven, .capa-eight, .capa-nine, .capa-ten {
+    margin-top: 8px;
+    margin-left: 8px;
+    border: solid rgb(255, 255, 255) 20px;
+    
+  }
+
+  audio {
+    position: absolute;
+    background-color: #ffffff;
+    margin-top: 340px;
+    margin-left: -340px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  #tabela-seven, #tabela-eight, #tabela-nine, #tabela-ten {
+
+    margin-left: 10px;
+  }
+
+
+
+  table thead th, td {
+    border: solid white 2px;
+    color: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    font-size: 16px;
+
+  }
+
+  #Letra {
+    background-color: #fff;
+    color: #000000;
+    margin-top: 10px;
+    margin-left: 8px;
+    margin-right: 55px;
+    border-radius: 10px;
+    overflow: scroll;
+    height: 400px;
+  }
+  h2 {
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 80px;
+  }
+
+  #Letra p {
+
+    margin-left: 40px;
+    margin-bottom: 25px;
+    font-size: 30px;
+  }
+
+
+  footer {
+    margin-top: -20px;
+    background-color: #000000;
+    color: white;
+  }
+  
+  
+  #rodape-parag {
+    font-size: 30px;
+    padding-bottom: 20px;
+    margin-left: 20px;
+  }
+  
+  .parag-one {
+    padding-top: 20px;
+  }
+  
+  .parag-two {
+    padding-top: 10px;
+  }

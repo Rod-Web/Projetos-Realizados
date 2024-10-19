@@ -1,0 +1,108 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+}
+  
+/* cabecalho */
+
+header {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #000000;
+  color: #fff;
+  padding: 20px;
+}
+  
+header h1 {
+  margin: -2px;
+  margin-bottom: 7px;
+  font-size: 70px;
+  text-shadow: 3px 5px 1px black ;
+}
+  
+nav ul {
+  list-style: none;
+  padding: 0;
+    
+}
+  
+nav ul li {
+  display: inline;
+  margin-right: 20px;    
+}
+  
+.play-home, .auto-home, .bonus-home {
+  text-shadow: 1px 1px 3px black ;
+  color: #fff;
+  text-decoration: none;
+  font-size: 30px;
+  
+  padding: 5px;
+  background-color: #292929;
+  border-radius: 20px;
+}
+  
+.play-home { 
+  background-color: #1b1a1a;
+}
+  
+.play-home:hover, .auto-home:hover, .bonus-home:hover {
+  font-size: 35px;
+  background-color: #9e969685;
+}
+  
+/* corpo */
+
+main {
+  background-color: #292929;
+  color: #ffffff;
+  padding-bottom: 40px;
+}
+
+.albuns {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+
+.albuns div{
+  margin-top: 20px;
+  margin-left: 45px;
+}
+
+.albuns div a img {
+  border: solid rgb(255, 255, 255) 20px;
+}
+
+.albuns p {
+  font-size: 40px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+
+}
+
+.album-one:hover, .album-two:hover, .album-three:hover {
+  opacity: 50%;
+}
+
+footer {
+  margin-top: -20px;
+  background-color: #000000;
+  color: white;
+}
+
+
+#rodape-parag {
+  font-size: 30px;
+  padding-bottom: 20px;
+  margin-left: 20px;
+}
+
+.parag-one {
+  padding-top: 20px;
+}
+
+.parag-two {
+  padding-top: 10px;
+}

@@ -1,0 +1,125 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+  }
+    
+  /* cabecalho */
+  
+  header {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #000000;
+    color: #fff;
+    padding: 20px;
+  }
+    
+  header h1 {
+    margin: -2px;
+    margin-bottom: 7px;
+    font-size: 70px;
+    text-shadow: 3px 5px 1px black ;
+  }
+    
+  nav ul {
+    list-style: none;
+    padding: 0;
+      
+  }
+    
+  nav ul li {
+    display: inline;
+    margin-right: 20px;    
+  }
+    
+  .play-home, .auto-home, .bonus-home {
+    text-shadow: 1px 1px 3px black ;
+    color: #fff;
+    text-decoration: none;
+    font-size: 30px;
+    
+    padding: 5px;
+    background-color: #292929;
+    border-radius: 20px;
+  }
+    
+  .play-home { 
+    background-color: #1b1a1a;
+  }
+    
+  .play-home:hover, .auto-home:hover, .bonus-home:hover {
+    font-size: 35px;
+    background-color: #9e969685;
+  }
+  
+  main {
+    padding: 20px;
+    padding-bottom: 84px;
+    background-color: #292929;
+    color: #ffffff;
+  }
+  
+  
+  main h2 {
+    margin-top: -15px;
+    margin-bottom: 10px;
+    color: #000000;
+    font-size: 75px;
+    text-shadow: 3px 2px 1px rgb(255, 255, 255) ;
+  
+  }
+  
+  .musicas {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 93px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    
+  }
+  
+  main a {
+    text-decoration: none;
+  }
+
+  img {
+    margin-bottom: -04px;
+    border: solid rgb(255, 255, 255) 20px;  
+  }
+
+  audio {
+    background-color: #fff;
+    margin-top: 0px;
+    width: 340px;
+}
+
+  main a p {
+    background-color: #fff;
+    font-size: 30px;
+    color: #000000;
+    text-align: center;
+
+  }
+
+  #opacity:hover {
+    opacity: 70%;
+  }
+
+  footer {
+    margin-top: -20px;
+    background-color: #000000;
+    color: white;
+  }
+  
+  #rodape-parag {
+    font-size: 30px;
+    padding-bottom: 20px;
+    margin-left: 20px;
+  }
+  
+  .parag-one {
+    padding-top: 20px;
+  }
+  
+  .parag-two {
+    padding-top: 10px;
+  }
