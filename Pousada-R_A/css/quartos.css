@@ -1,0 +1,84 @@
+body {
+    background: linear-gradient(to right, rgb(0, 71, 170), rgb(0, 0, 133));
+    color: white;
+}
+
+/* Navbar */
+
+.navbar {
+    background: linear-gradient(to right,  rgb(0, 82, 204), rgb(4, 0, 219));
+    border: solid 1px white;
+}
+    /*Logo*/
+.logo {
+    height: 100px;
+    width: 100px;
+}
+            /*Responsividade*/
+.navbar-toggler {
+    border: solid 1px white !important;
+    color: white !important;
+}
+            /*Links*/
+.nav-link {
+    color: white;
+    transition: 0.8s;
+    margin-right: 20px;
+}
+
+.nav-link:hover {
+    transform: scale(1.2);
+    color: white !important;
+}
+
+.active {
+    border: solid 1px rgba(255, 255, 255, 0.394);
+    border-radius: 100px;
+    color: white !important;
+    font-weight: bold;
+}
+
+/*Cards*/
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.card {
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 5px;
+    background-color: rgba(5, 144, 219, 0.579);
+    color: white;
+    border-radius: 15px;
+    transition: 1s;
+}
+
+.card:hover {
+    transform: scale(0.97);
+}
+
+img {
+    height: 185px;
+    border-radius: 15px;
+}
+
+p {
+    text-align: justify;
+    margin-top: 10px;
+}
+
+.rodape {
+    background-color: blue;
+    margin-top: 30px;
+    padding: 20px;
+    font-size: 0.9em;
+    color: #ffffff;
+}
+
+.rodape p {
+    text-align: center;
+}

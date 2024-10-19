@@ -1,0 +1,60 @@
+body {
+    background: linear-gradient(to right, rgb(0, 71, 170), rgb(0, 0, 133));
+    color: white;
+}
+
+/* Navbar */
+
+.navbar {
+    background: linear-gradient(to right,  rgb(0, 82, 204), rgb(4, 0, 219));
+    border: solid 1px white;
+}
+    /*Logo*/
+.logo {
+    height: 100px;
+    width: 100px;
+}
+            /*Responsividade*/
+.navbar-toggler {
+    border: solid 1px white !important;
+    color: white !important;
+}
+            /*Links*/
+.nav-link {
+    color: white;
+    transition: 0.8s;
+    margin-right: 20px;
+}
+
+.nav-link:hover {
+    transform: scale(1.2);
+    color: white !important;
+}
+
+.active {
+    border: solid 1px rgba(255, 255, 255, 0.394);
+    border-radius: 100px;
+    color: white !important;
+    font-weight: bold;
+}
+
+.sobre {
+    font-size: 25px;
+    margin: 40px;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.sobre p {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.rodape {
+    background-color: blue;
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+    font-size: 0.9em;
+    color: #ffffff;
+}
