@@ -1,0 +1,53 @@
+body {
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0px 0px 10px #fff; /* Define o contorno do texto */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px;
+    gap: 40px; /* Ajuste o espaço entre os cards */
+}
+
+.cards {
+    width: 250px; /* Definindo uma largura fixa para todos os cards */
+    min-height: 200px; /* Definindo uma altura mínima para os cards */
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px #fff; /* Define o contorno do texto */
+    font-size: 25px;
+    display: flex; /* Adicionando flexbox para centralizar conteúdo */
+    flex-direction: column; /* Organizando o conteúdo em coluna */
+    justify-content: center; /* Centralizando verticalmente o conteúdo */
+    align-items: center; /* Centralizando horizontalmente o conteúdo */
+}
+
+.cards h2 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.cards a {
+    text-decoration: none;
+    color: white;
+}
+
+.cards h3 {
+    text-align: center;
+    padding-bottom: 10px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.cards h3:hover {
+    transform: scale(0.96);
+    opacity: 0.8;
+}

@@ -1,0 +1,51 @@
+body { 
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0px 0px 10px #fff; /* Define o contorno do texto */
+}
+
+.container { 
+    display: flex; /* Exibe os cards em linha usando Flexbox */
+    flex-wrap: wrap; /* Permite que os cards se ajustem em várias linhas */
+    box-shadow: 0px 0px 10px #fff; /* Define o contorno do texto */
+    padding: 10px; /* Espaçamento interno do Container */
+    margin-top: 20px; /* Espaçamento superior do Container */
+    gap: 60px; /* Espaçamento entre os cards */
+    justify-content: center; /* Centraliza os cards horizontalmente */
+}
+
+.card { 
+    border-radius: 10px; /* Arredonda os cantos dos cards */
+    padding: 20px; /* Espaçamento interno dos cards */
+    box-shadow: 0px 0px 10px #fff; /* Define o contorno do texto */
+    transition: 0.6s; /* Efeito de transição ao passar o mouse */
+    display: flex; /* Adicionando flexbox para centralizar conteúdo */
+    flex-direction: column; /* Organizando o conteúdo em coluna */
+    align-items: center; /* Centraliza horizontalmente o conteúdo */
+}
+
+.card:hover { 
+    transform: scale(0.97); /* Reduz o tamanho do card ao passar o mouse */
+}
+
+.card img { 
+    border-radius: 10px; /* Arredonda os cantos da imagem */
+    width: 200px; /* Tamanho da largura da imagem */
+    height: 200px; /* Tamanho da altura da imagem */
+}
+
+.card h2 { 
+    background: none; /* Deixa sem fundo o título */
+    text-align: center; /* Alinha o texto do título ao centro */
+    color: white; /* Cor da fonte do título */
+}
